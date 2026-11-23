@@ -10,6 +10,6 @@ Open `index.html` in a browser, or serve this directory with any static file ser
 
 In the repository's **Settings → Pages**, choose **Deploy from a branch**, select `main` and the `/ (root)` folder, then save. GitHub Pages will publish the site from the repository root.
 
-The company logo is in `assets/gladi8or-icon.png`. The Couch Combat tile currently uses a temporary CSS icon; replace it with the app icon when it is available.
+The company logo is in `assets/gladi8or-icon.png`, and the Couch Combat app artwork is in `assets/couch-combat-icon.jpeg`.
 
 The Contact Us form opens the visitor's default email app with a prefilled message to `admin@gladi8orlabs.app`; visitors review and send the email themselves. The Buy Me a Coffee link points to https://buymeacoffee.com/gladi8orlabsllc.
