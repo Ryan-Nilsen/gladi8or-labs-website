@@ -260,6 +260,7 @@ body {
 
 .site-footer {
   display: flex;
+  flex-wrap: wrap;
   min-height: 56px;
   align-items: center;
   justify-content: center;
