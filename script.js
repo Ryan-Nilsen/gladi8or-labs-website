@@ -32,10 +32,9 @@ contactForm.addEventListener('submit', (event) => {
 
   const formData = new FormData(contactForm);
   const name = String(formData.get('name')).trim();
-  const email = String(formData.get('email')).trim();
   const message = String(formData.get('message')).trim();
   const subject = 'Website contact form';
-  const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+  const body = `Name: ${name}\n\n${message}`;
   const mailtoUrl =
     `mailto:admin@gladi8orlabs.app?subject=${encodeURIComponent(subject)}` +
     `&body=${encodeURIComponent(body)}`;
